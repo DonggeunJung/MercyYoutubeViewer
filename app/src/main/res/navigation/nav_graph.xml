@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.vclip.mercy.presentation.MainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main" >
+        <action
+            android:id="@+id/action_mainFragment_to_splashFragment"
+            app:destination="@id/splashFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.vclip.mercy.presentation.view.splash.SplashFragment"
+        android:label="SplashFragment" >
+        <action
+            android:id="@+id/action_splashFragment_to_onBoardingFragment"
+            app:destination="@id/onBoardingOneFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/onBoardingOneFragment"
+        android:name="com.vclip.mercy.presentation.view.onboarding.OnBoardingOneFragment"
+        android:label="OnBoardingFragment" >
+        <action
+            android:id="@+id/action_onBoardingOneFragment_to_onBoardingTwoFragment"
+            app:destination="@id/onBoardingTwoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/onBoardingTwoFragment"
+        android:name="com.vclip.mercy.presentation.view.onboarding.OnBoardingTwoFragment"
+        android:label="OnBoardingTwoFragment" >
+        <action
+            android:id="@+id/action_onBoardingTwoFragment_to_onBoardingThreeFragment"
+            app:destination="@id/onBoardingThreeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/onBoardingThreeFragment"
+        android:name="com.vclip.mercy.presentation.view.onboarding.OnBoardingThreeFragment"
+        android:label="OnBoardingThreeFragment" >
+        <action
+            android:id="@+id/action_onBoardingThreeFragment_to_signInFragment"
+            app:destination="@id/signInFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/signInFragment"
+        android:name="com.vclip.mercy.presentation.view.signin.SignInFragment"
+        android:label="SignInFragment" >
+        <action
+            android:id="@+id/action_signInFragment_to_welcomeFragment"
+            app:destination="@id/welcomeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/welcomeFragment"
+        android:name="com.vclip.mercy.presentation.view.welcome.WelcomeFragment"
+        android:label="WelcomeFragment" >
+        <action
+            android:id="@+id/action_welcomeFragment_to_surveyFragment"
+            app:destination="@id/surveyFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/surveyFragment"
+        android:name="com.vclip.mercy.presentation.view.survey.SurveyFragment"
+        android:label="SurveyFragment" >
+        <action
+            android:id="@+id/action_surveyFragment_to_majorFragment"
+            app:destination="@id/majorFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/majorFragment"
+        android:name="com.vclip.mercy.presentation.view.major.MajorFragment"
+        android:label="MajorFragment" >
+        <action
+            android:id="@+id/action_majorFragment_to_videoPlayFragment"
+            app:destination="@id/videoPlayFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/videoPlayFragment"
+        android:name="com.vclip.mercy.presentation.view.videoplay.VideoPlayFragment"
+        android:label="VideoPlayFragment" />
+</navigation>

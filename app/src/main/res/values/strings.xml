@@ -1,0 +1,59 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Mercy Vclip</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="home">홈</string>
+    <string name="search">검색</string>
+    <string name="favorite">즐겨찾기</string>
+    <string name="settings">설정</string>
+
+    <string name="confirm">확인</string>
+    <string name="cancel">취소</string>
+    <string name="next">다음</string>
+    <string name="done">완료</string>
+    <string name="previous">이전</string>
+    <string name="ignore">무시</string>
+    <string name="do_setting">설정하기</string>
+    <string name="do_start">시작하기</string>
+
+    <string name="onboarding1_title">1.나의 생활 루틴에 맞춰\n동영상을 시청할수 있도록</string>
+    <string name="onboarding1_subtitle">1.동영상 시청습관을 커스텀</string>
+    <string name="onboarding2_title">2.나의 생활 루틴에 맞춰\n동영상을 시청할수 있도록</string>
+    <string name="onboarding2_subtitle">2.동영상 시청습관을 커스텀</string>
+    <string name="onboarding3_title">3.나의 생활 루틴에 맞춰\n동영상을 시청할수 있도록</string>
+    <string name="onboarding3_subtitle">3.동영상 시청습관을 커스텀</string>
+
+    <string name="apply_policies_terms_message">로그인함으로써 V-Clip의 정책 및 약관에 동의합니다.</string>
+    <string name="terms_of_service">서비스이용 약관</string>
+    <string name="privacy_policy">개인정보 처리방침</string>
+    <string name="mercy_copyright">Copyright © 2022 MERCY all rights reserved</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="sign_in_google">구글 계정으로 로그인하기</string>
+
+    <string name="sign_in_title">Make an impact!</string>
+    <string name="sign_in_subtitle">나만을 위한 영상 리스트를 만들어보세요.</string>
+
+    <string name="name_to">님</string>
+    <string name="welcome">환영합니다!</string>
+    <string name="welcome_hello">반가워요!</string>
+    <string name="welcome_need_information">V.Clip을 이용하기 위해서는\n3가지 정보가 필요해요</string>
+    <string name="welcome_description">나만의 동영상들로 Clip 해보세요!</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="example_button_action">Press to say hello</string>
+
+    <string name="survey_interest_title">동영상 관심 분야를\n3개 선택해주세요</string>
+    <string name="survey_interest_subtitle">3개의 관심분야 기준으로\n메인화면에서 영상을 추천해드려요</string>
+    <string name="survey_keyword_title">어떤 키워드의 영상을 보고 싶으신가요?</string>
+    <string name="survey_keyword_subtitle">추천받고 싶은 동영상 키워드를 선택해 주세요</string>
+
+    <string name="major_recommend_title">추천영상</string>
+    <string name="major_stampic_title">Stampic!</string>
+    <string name="major_keyword_recommend_title">내 관심사 키워드 추천 영상</string>
+    <string name="major_keyword_recommend_description">내가 선택한 ‘관심 키워드’기반으로 영상을 추천해요</string>
+    <string name="major_hits_title">조회수</string>
+    <string name="major_various_recommend_title">다양한 분야의 추천 영상</string>
+    <string name="major_various_recommend_description">관심 키워드 외에도 다양한 분야의 영상을 보고 지식을 확장 시켜 보세요</string>
+    <string name="major_footer_title">풋터</string>
+    <string name="major_footer_description">서비스 대표 이메일 서비스 대표 이메일 서비스 대표 이메일 서비스 대표 이메일 서비스 대표 이메일 서비스 대표 이메일 서비스 대표 이메일 서비스 대표 이메일 서비스 대표 이메일 서비스 대표 이메일 서비스 대표 이메일 서비스 대표 이메일 서비스 대표 이메일 </string>
+</resources>
