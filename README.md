@@ -33,5 +33,14 @@
 <br>
 <br>
 
+[Sign in : SurveyFragment.kt & fragment_survey.xml & SurveyScreen.kt]
+
+<div>
+<img src="https://github.com/DonggeunJung/MercyYoutubeViewer/blob/main/Mercy_Capture06.png?raw=true width="220px" height="370px"></img>
+</div>
+<br>
+<br>
+
+
 
 
