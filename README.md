@@ -25,4 +25,13 @@
 <br>
 <br>
 
+[Sign in : WelcomeFragment.kt & fragment_welcome.xml]
+
+<div>
+<img src="https://github.com/DonggeunJung/MercyYoutubeViewer/blob/main/Mercy_Capture05.png?raw=true width="220px" height="370px"></img>
+</div>
+<br>
+<br>
+
+
 
