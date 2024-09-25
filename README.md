@@ -41,6 +41,15 @@
 <br>
 <br>
 
+[Sign in : MajorFragment.kt & fragment_major.xml]
+
+<div>
+<img src="https://github.com/DonggeunJung/MercyYoutubeViewer/blob/main/Mercy_Capture01.png?raw=true width="220px" height="370px"></img>
+</div>
+<br>
+<br>
+
+
 
 
 
